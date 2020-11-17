@@ -1,10 +1,12 @@
-def collection(city):
+def collection(city, lim):
 
     '''
     This function extracts information from those companies(documents) of a MongoDB collection that fulfill the following conditions:
         - The companies need to located in a specific city, which we set as argument depending in our interest.
         - They have to operate in one of this fields: analytics, games-video, mobile, software or web
 
+    It takes as aruments the city we want to explore and the limit of obsevations we want
+    
     The function returns an object with the name, city, latitude and lonitude, and category of the company.
 
     '''
