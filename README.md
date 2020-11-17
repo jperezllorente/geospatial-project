@@ -8,23 +8,23 @@ According to GameDesigning, four of the best cities to work as a gaming develope
 
 ## Libraries
 
-    - For general practices and commands:
+* For general practices and commands:
 
-        - Pandas
-        - Pymongo -> Mongoclient
-        - Math
-        - Functools -> Reduce
-        -Operator
-    
-    - For working with API's:
-     
-        - Json 
-        - Requests
-    
-    - For map visualization:
+    - Pandas
+    - Pymongo -> Mongoclient
+    - Math
+    - Functools -> Reduce
+    -Operator
 
-        - Folium
-        - Folium.plugins
+* For working with API's:
+    
+    - Json 
+    - Requests
+
+- For map visualization:
+
+    - Folium
+    - Folium.plugins
     
 ## Structure
 
