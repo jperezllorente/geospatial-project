@@ -26,6 +26,11 @@ According to GameDesigning, four of the best cities to work as a gaming develope
     - Folium
     - Folium.plugins
     
+
+Also, for the calculation of distances I have used a function from thie Medium article in which the whole explanation is given with plenty of detail. [Calculate Distance Between GPS Points in Python](https://janakiev.com/blog/gps-points-distance-python/)
+
+
+
 ## Structure
 
 The project is divided in three main sections, and inside each of them we can find the process done to each of the three cities selected. 
