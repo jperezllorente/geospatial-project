@@ -47,14 +47,20 @@ Once each dataframe is finished, we create a map in which we can find four kinds
 
 **Final Analysis and Conclusions**
 
-The first conclusion we can extract from the visual analysis is that London can be excluded, as the companies that belong to the categories we are interested in are way to disperse and far away from the clubs and starbucks, which means our employees will not be able to enjoy themselves, something we absolutely cannot accept. Therefore, London is out of the way, and we have to choose between Paris or San Francisco.  
+The first conclusion we can extract from the visual analysis is that London can be excluded as the companies that belong to the categories we are interested in are way to disperse and far away from the clubs and starbucks, which means our employees will not be able to enjoy themselves, something we absolutely cannot accept. Therefore, London is out of the way, and we have to choose between Paris or San Francisco.  
 
-Between San Francisco and Paris, the visualizations are not vey different, even though the former has a lot more companies from which developers can learn and exchange ideas and experiences. 
+In orer to choose the right city for our company we are going to use one from the  Mongodb collection as reference, and we are going to compare the distances to the nearest Starbukcs and airport, and the number of clubs in a 150 meter radius. 
 
-However, after calculating the distance to the closest starbucks, club/bar, company and airport, we can say that the best place to set a new gaming company is **Paris**, as the chosen spot is from which our employees can enjoy a cup of coffe during a break or go out for a drink after a hard day of work. It is close to other companies, and the closest airports are just 12 and 14 km away, which would be more convenient to our managers. 
+    - The reason we are only checking for one Starbucks is because all establishments are the same and offer the same products, so it was not necessary to have many near the company. The same reasoning can be applied to the airports.
+    - The crtieria related to the clubs is focused on the number of establishments found in a 150 meter radius with the company as the centre. The reason for this is that most clubs have different atmospheres and vibes, and it more enjoyable going to different bars.  
+
+The results help us conclude that Paris would be a better option because  the selected lcoation has more clubs in the defined area, and it has a Starbucks and airport closer than the office in San Francisco. The location in Paris has many companies nearby from which our developers can learn and exchange experiences, and plenty of clubs and starbucks for our employees to enjoy themselves after a hard day of work. Also, facing the company's growth, it could be a better option to locate our offices in a city where the industry is growing, instead of doing it in a city where it is solidly established. 
+
 
 **Future improvements**
 
 It would have been great to use **geo queries** or python's library **geopandas**, as they would have allowed me to obtian results more precisely. 
+
+It would be interesting to choose a randon point based on criteria as the one used in this project insetad of choosing a location based on visualization and other information. Also, a table of scores could be created to determine what values we give to each criteria son that our final decision us based on true evidence. 
 
 
