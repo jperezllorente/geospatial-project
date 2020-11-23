@@ -6,6 +6,8 @@
 
 According to GameDesigning, four of the best cities to work as a gaming developer are: San Francisco, London, Tokyo and Paris we did´t have enough information on Tokyo so we passed on to Paris). So, the objective of this project was to decide which of this cities was better according to the closeness of starbucks facilities, nightclubs/bars, airports and other similar companies. 
 
+The full Jupyter Notebook with visualizations can be found in this link [Geospatial-project](https://nbviewer.jupyter.org/github/jperezllorente/geospatial-project/blob/main/proyecto.ipynb)
+
 ## Libraries
 
 * For general practices and commands:

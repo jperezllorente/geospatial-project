@@ -1,3 +1,7 @@
+
+
+
+
 def collection(city, lim):
 
     '''
@@ -18,7 +22,7 @@ def collection(city, lim):
                                                        {"category_code": "web"}]}, {
     
     "name":1, "offices.city":1, "offices.latitude":1,
-    "offices.longitude":1, "category_code":1})).limit(5)
+    "offices.longitude":1, "category_code":1}).limit(lim))
     
     return x
 
